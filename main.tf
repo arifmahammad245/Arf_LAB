@@ -14,6 +14,7 @@ provider "aws" {
 
 }
 
+# AWS resource
 
 resource "aws_instance" "my_ec2" {
   ami                    = var.ami_id
