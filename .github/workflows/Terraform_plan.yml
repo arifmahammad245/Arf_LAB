@@ -9,7 +9,7 @@ on:
 jobs:
   terraform-plan:
     name: Terraform Plan
-    runs-on: Ubuntu 26.04
+    runs-on: 	Ubuntu 26.04.1 LTS
 
     steps:
       - name: Checkout repository
